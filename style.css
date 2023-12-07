@@ -1,0 +1,59 @@
+body {
+    background-color: lightblue;
+  }
+
+.container {
+    height: 200px;
+    position: relative;
+}
+
+.container2 {
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+}
+
+input[type="button1"], input[type="button2"], input[type="button3"]{
+    background-color: #04AA6D;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+  }
+
+.result {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+input[type="button1"] {
+    background-color: #ffffff;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    color: black;
+    text-align: center;
+    width: 4em;  height: 4em;
+}
+
+input[type="button2"] {
+    background-color: #555555;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    text-align: center;
+    width: 4em;  height: 4em;
+}
+
+input[type="button3"] {
+    background-color: #e7e7e7; 
+    color: black;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    text-align: center;
+    width: 4em;  height: 4em;
+}
+
+.center, .result, .title {
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+}
